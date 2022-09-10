@@ -3,7 +3,8 @@ package com.tlz;
 public class Main {
 
     public static void main(String[] args) {
-        areYouPlayingBanjo("frank");
+//        areYouPlayingBanjo("frank");
+//        noSpace("hello");
     }
 
     public static String areYouPlayingBanjo(String name) {
@@ -23,5 +24,9 @@ public class Main {
             return name + " does not play banjo";
         }
 
+    }
+
+    public static String noSpace(final String x) {
+        return x.replaceAll("\\s", "");
     }
 }
