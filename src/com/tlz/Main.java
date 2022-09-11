@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 //        areYouPlayingBanjo("frank");
 //        noSpace("hello");
+//        personalizedMessage("frank", "tom");
     }
 
     public static String areYouPlayingBanjo(String name) {
@@ -27,6 +28,18 @@ public class Main {
     }
 
     public static String noSpace(final String x) {
+//        Simple, remove the spaces from the string, then return the resultant string.
         return x.replaceAll("\\s", "");
+    }
+
+    public static String personalizedMessage(String name, String owner) {
+//        Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
+//        Use conditionals to return the proper message:
+//
+//        case	                return
+//        name equals owner	    'Hello boss'
+//        otherwise	            'Hello guest'
+
+        return name.equals(owner) ? "Hello boss" : "Hello guest";
     }
 }
