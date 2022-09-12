@@ -6,6 +6,7 @@ public class Main {
 //        areYouPlayingBanjo("frank");
 //        noSpace("hello");
 //        personalizedMessage("frank", "tom");
+//        greet("frank");
     }
 
     public static String areYouPlayingBanjo(String name) {
@@ -41,5 +42,11 @@ public class Main {
 //        otherwise	            'Hello guest'
 
         return name.equals(owner) ? "Hello boss" : "Hello guest";
+    }
+
+    public static String greet(String name)
+    {
+        // Make a function that will return a greeting statement that uses an input; your program should return, "Hello, <name> how are you doing today?".
+        return "Hello, " + name + " how are you doing today?";
     }
 }
