@@ -49,4 +49,12 @@ public class Main {
         // Make a function that will return a greeting statement that uses an input; your program should return, "Hello, <name> how are you doing today?".
         return "Hello, " + name + " how are you doing today?";
     }
+
+    public static String boolToWord(boolean b)
+    {
+//        Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+        return b ? "Yes" : "No";
+    }
+
 }
+
