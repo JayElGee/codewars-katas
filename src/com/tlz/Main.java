@@ -3,10 +3,7 @@ package com.tlz;
 public class Main {
 
     public static void main(String[] args) {
-//        areYouPlayingBanjo("frank");
-//        noSpace("hello");
-//        personalizedMessage("frank", "tom");
-//        greet("frank");
+
     }
 
     public static String areYouPlayingBanjo(String name) {
@@ -54,6 +51,14 @@ public class Main {
     {
 //        Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
         return b ? "Yes" : "No";
+    }
+
+    public String dnaToRna(String dna) {
+//      Deoxyribonucleic acid, DNA is the primary information storage molecule in biological systems. It is composed of four nucleic acid bases Guanine ('G'), Cytosine ('C'), Adenine ('A'), and Thymine ('T').
+//      Ribonucleic acid, RNA, is the primary messenger molecule in cells. RNA differs slightly from DNA its chemical structure and contains no Thymine. In RNA Thymine is replaced by another nucleic acid Uracil ('U').
+//      Create a function which translates a given DNA string into RNA.
+
+        return dna.replace("T", "U");
     }
 
 }
